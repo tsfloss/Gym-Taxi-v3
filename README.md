@@ -17,7 +17,9 @@ agent.test(test_episodes)
 ```
 
 ## Technical Information
-After 100000 episodes the model is definitely done training and subsequent test results are:
+The environment is solved using a Q Learning implementation. The model performs random actions decreasingly often as a means of exploration.
+
+After 100000 episodes the model is certainly done training and subsequent test results are:
 
 ```
 Average amount of steps: 13.07659
